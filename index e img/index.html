@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra Celulares</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <script src="https://kit.fontawesome.com/f6d9fecf2a.js" crossorigin="anonymous"></script><!-- iconos -->
+</head>
+<body>
+    <header>
+        <div class="search">
+            <h1>Búsqueda en mi Página</h1>
+            <form action="/buscar" method="get">
+                <label for="busqueda">Buscar:</label>
+                <input type="search" id="busqueda" placeholder="   Ingrese su búsqueda  ...">
+                <button onclick="realizarBusqueda()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        <div id="resultados">
+            
+        </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Compra Celulares</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#compras">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container" id="compras">
+            <section id="celulares">
+                <h2>Celulares Disponibles</h2>
+                <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/samsumggalaxiA32.webp" height="200px" width="200px" class="card-img-top" alt="samsung-galaxy-a32">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy A32</h5>
+                            <p class="card-text">$250.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imgsamsunggalaxyA34.webp" height="200px" width="200px" class="card-img-top" alt="samsung-galaxy-a34">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy A34</h5>
+                            <p class="card-text">$260.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+              
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imgiphone12.avif" height="200px" width="200px" class="card-img-top" alt="iphone-12">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 12 de 128</h5>
+                            <p class="card-text">$985.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imgiphone13.jpg" height="200px" width="200px" class="card-img-top" alt="iphone-13">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 13 de 128</h5>
+                            <p class="card-text">$1200.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imgiphone13promax.jpg" height="200px" width="200px" class="card-img-top" alt="iphone-13">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 13 pro max</h5>
+                            <p class="card-text">$1000.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imhiphone11pro.webp" height="200px" width="200px" class="card-img-top" alt="iphone-11">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 11 pro</h5>
+                            <p class="card-text">$950.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imgiphone14promax.jpg" height="200px" width="200px" class="card-img-top" alt="iphone-14">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 14 pro max</h5>
+                            <p class="card-text">$1400.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imgredminote12.jpg" height="200px" width="200px" class="card-img-top" alt="redmi note-12">
+                        <div class="card-body">
+                            <h5 class="card-title">redmi note 12 128</h5>
+                            <p class="card-text">$500.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imgxiaomimi11ultra.webp" height="200px" width="200px" class="card-img-top" alt="xioami Mi 11 Ultra">
+                        <div class="card-body">
+                            <h5 class="card-title">xiaomi Mi 11 Ultra 128</h5>
+                            <p class="card-text">$985.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imgxiaominote12pro.jpeg" height="200px" width="200px" class="card-img-top" alt="redmi note-12 pro">
+                        <div class="card-body">
+                            <h5 class="card-title">redmi note 12 pro 256</h5>
+                            <p class="card-text">$1200.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imgxiaomi13T.jpg" height="200px" width="200px" class="card-img-top" alt="xiaomi-13T">
+                        <div class="card-body">
+                            <h5 class="card-title">xiaomi 13T 128</h5>
+                            <p class="card-text">$985.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imgmotorola30neo.avif" height="200px" width="200px" class="card-img-top" alt="edge 30 neo">
+                        <div class="card-body">
+                            <h5 class="card-title">motorola edge 30 neo 128</h5>
+                            <p class="card-text">$985.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imgmotorolaedge30.jpeg" height="200px" width="200px" class="card-img-top" alt="motorola ">
+                        <div class="card-body">
+                            <h5 class="card-title">motorola edge neo 128</h5>
+                            <p class="card-text">$985.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imghuaweimatebook.jpeg" height="200px" width="200px" class="card-img-top" alt="matebook">
+                        <div class="card-body">
+                            <h5 class="card-title">huawei matebook</h5>
+                            <p class="card-text">$985.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imgideapad3.jpeg" height="200px" width="200px" class="card-img-top" alt="ideapad3">
+                        <div class="card-body">
+                            <h5 class="card-title">lenovo ideapad3</h5>
+                            <p class="card-text">$985.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imgipadair5generacion.jpeg" height="200px" width="200px" class="card-img-top" alt="imgipadair5generacion">
+                        <div class="card-body">
+                            <h5 class="card-title">imgipadair5generacion</h5>
+                            <p class="card-text">$985.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/imgmini.jpeg" height="200px" width="200px" class="card-img-top" alt="ipad mini">
+                        <div class="card-body">
+                            <h5 class="card-title">ipad mini de 256</h5>
+                            <p class="card-text">$985.000</p>
+                        </div>
+                        <button class="btnBuy"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer" id="footer">
+            <div class="container container-footer">
+                <div class="menu-footer">
+                    <div class="contact-info">
+                        <p class="title-footer">Información de Contacto</p>
+                        <ul>
+                            <li>
+                                Dirección: Tuxtla Chiapas, Mexico
+                            </li>
+                            <li>Teléfono: 964-289-56-46</li>
+                            <li>Fax: 9685243026</li>
+                            <li>EmaiL: email@support.com</li>
+                        </ul>
+                        <div class="social-icons">
+                            <span class="facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </span>
+                            <span class="twitter">
+                                <i class="fa-brands fa-twitter"></i>
+                            </span>
+                            <span class="instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </span>
+                        </div>
+                    </div>
+    
+                    <div class="information">
+                        <p class="title-footer">Información</p>
+                        <ul>
+                            <li><a href="#">Acerca de Nosotros</a></li>
+                            <li><a href="#">Información Delivery</a></li>
+                            <li><a href="#">Políticas de Privacidad</a></li>
+                            <li><a href="#">Términos y condiciones</a></li>
+                            <li><a href="#">Contactános</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="my-account">
+                        <p class="title-footer">Mi cuenta</p>
+    
+                        <ul>
+                            <li><a href="#">Mi cuenta</a></li>
+                            <li><a href="#">Historial de compras</a></li>
+                            <li><a href="#">Lista de favoritos</a></li>
+                            <li><a href="#">Cartera</a></li>
+                            <li><a href="#">Reembolsó</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="newsletter">
+                        <p class="title-footer">Descuentos y Promociones</p>
+                        
+                        <button class="susc">Inscripción a Membresía</button>
+                    </div>
+                </div>
+    
+                <div class="copyright">
+                    <p>
+                        Desarrollado por  Carlos Penagos &copy; 2023
+                    </p>
+    
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
